@@ -5,4 +5,13 @@ select,
 textarea {
   font-family: 'Open Sans', sans-serif;
   line-height: 1.65;
+  color: #2f2f2f;
 }
+
+/* 
+Base colors
+#dc9827 - yellow
+#353d7a - blue
+#ac2203 - red
+#2f2f2f - dark gray
+*/
