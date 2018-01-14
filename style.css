@@ -6,30 +6,45 @@ Base colors
 #2f2f2f - dark gray
 */
 
+/*----------------------------------------
+Main Styles
+----------------------------------------*/
 body,
 button,
 input,
 select,
 textarea {
-  font-family: 'Open Sans', sans-serif;
-  line-height: 1.65;
-  color: #2f2f2f;
+	font-family: 'Open Sans', sans-serif;
+	line-height: 1.65;
+	color: #2f2f2f;
 }
 
 body.custom-background {
 	background-color: #f7e9d2;
 }
 
+h1,
+h2,
 h2.entry-title,
-h2.entry-title a {
+h2.entry-title a,
+h3,
+h4,
+h5 {
 	color: #ac2203;
 }
 
+/*----------------------------------------
+Post Styles
+----------------------------------------*/
 .sticky-post {
 	background-color: #efa829;
 	color: #353d7a;
 	padding: 0.5em 1.25em;
 	font-size: 1.25em;
+}
+
+.hentry, .page-header, .page-content {
+	box-shadow: none;
 }
 
 .entry-footer {
@@ -45,4 +60,46 @@ h2.entry-title a {
 .entry-footer a:focus {
 	color: #fff;
 	border-bottom: 1px solid #fff;
+}
+
+/*----------------------------------------
+Input Styles
+----------------------------------------*/
+input,
+textarea {
+	border: 0;
+}
+
+button, input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+	background-color: #3e4692;
+}
+
+
+/*----------------------------------------
+Sidebar/Site Header Styles
+----------------------------------------*/
+.sidebar {
+	background-color: #efa82a;
+}
+
+h1.site-title {
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.site-description {
+	text-align: center;
+}
+
+h1.site-title a,
+.site-description {
+	color: #f7ead2;
+}
+
+.site-header {
+	background-color: #efa82a;
+	border-bottom: 0;
+	padding: 0.6923% 7.6923%;
 }
