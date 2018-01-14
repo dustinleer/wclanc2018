@@ -237,7 +237,7 @@ h1.site-title a,
 		background-color: #efa829;
 	}
 	.site-header {
-		margin: 1%;
+		margin: 5% 1% 1%;
 	}
 
 	.main-navigation {
@@ -254,7 +254,7 @@ h1.site-title a,
 
 @media screen and (min-width: 62.500em) {
 	.site-header {
-		padding: 0 20%;
+		padding: 5% 20% 0;
 	}
 }
 
