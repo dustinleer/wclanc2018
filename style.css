@@ -46,6 +46,10 @@ a:focus {
 /*----------------------------------------
 Entry Styles
 ----------------------------------------*/
+.site-content {
+	margin: 1.75em .75em;
+}
+
 .sticky-post {
 	background-color: #efa829;
 	color: #353d7a;
@@ -241,6 +245,9 @@ h1.site-title a,
 	.custom-logo-link:after {
 		max-height: none;
 	}
+	.site-info {
+		padding: 2% 10% 0;
+	}
 }
 
 @media screen and (min-width: 62.500em) {
@@ -277,11 +284,45 @@ h1.site-title a,
 	}
 }
 
-.site-info a:after {
+/*.site-info a:after {
 	content: "\f324";
 	font-family: dashicons;
 	margin-left: 0.5em;
 	font-size: 1em;
+}*/
+
+.site-info {
+	position: relative;
+}
+
+.site-info a {
+	border-bottom: 0;
+	position: relative;
+	top: -30px;
+}
+
+.site-info a:before {
+	content: "";
+	background-image: url(https://cldup.com/w3gQ97rKP0.svg);
+	background-size: 64px;
+	background-position: center;
+	background-repeat: no-repeat;
+	color: #444;
+	height: 64px;
+	font-size: 20px;
+	line-height: 1.3em;
+	margin: 0 auto;
+	padding: 0;
+	width: 64px;
+	text-indent: -9999px;
+	outline: 0;
+	display: block;
+	margin-bottom: 10px;
+	position: relative;
+	background-color: #3e4692;
+	border-radius: 100%;
+	padding: 32px;
+	border: 8px solid #3e4692;
 }
 
 .site-footer {
@@ -291,8 +332,26 @@ h1.site-title a,
 	color: #fff;
 }
 
+@media screen and (min-width: 0em) {
+	.site-footer {
+		padding: 0;
+	}
+}
+
 .site-footer a {
 	color: #fff;
+	text-align: center;
+	display: inline-block;
+	width: 100%;
+}
+
+.site-info a:hover,
+.site-info a:focus {
+	color: #cdd1f3;
+}
+
+.site-info a:hover {
+	border-bottom: 0;
 }
 
 
