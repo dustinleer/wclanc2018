@@ -243,6 +243,12 @@ h1.site-title a,
 	}
 }
 
+@media screen and (min-width: 62.500em) {
+	.site-header {
+		padding: 0 20%;
+	}
+}
+
 @media screen and (max-width: 58.6875em) {
 	.site-header {
 		padding: 1.6923% 7.6923%;
