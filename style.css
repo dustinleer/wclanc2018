@@ -46,8 +46,10 @@ a:focus {
 /*----------------------------------------
 Entry Styles
 ----------------------------------------*/
-.site-content {
-	margin: 1.75em .75em;
+@media screen and (max-width: 59.6874em) {
+	.site-content {
+		margin: 1.75em .75em;
+	}
 }
 
 .sticky-post {
