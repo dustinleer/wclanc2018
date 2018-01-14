@@ -96,6 +96,19 @@ input[type="submit"] {
 	background-color: #3e4692;
 }
 
+button:hover,
+input[type="button"]:hover,
+input[type="reset"]:hover,
+input[type="submit"]:hover,
+button:focus,
+input[type="button"]:focus,
+input[type="reset"]:focus,
+input[type="submit"]:focus {
+	background-color: rgb(62, 70, 146, 0.7);
+	background-color: rgba(51, 51, 51, 0.7);
+	outline: 0;
+}
+
 /*----------------------------------------
 Sidebar/Site Header Styles
 ----------------------------------------*/
@@ -257,6 +270,24 @@ h1.site-title a,
 		width: 100%;
 		margin-right: 0;
 	}
+}
+
+.site-info a:after {
+	content: "\f324";
+	font-family: dashicons;
+	margin-left: 0.5em;
+	font-size: 1em;
+}
+
+.site-footer {
+	border: 0;
+	box-shadow: none;
+	background-color: #3e4692;
+	color: #fff;
+}
+
+.site-footer a {
+	color: #fff;
 }
 
 
