@@ -1,4 +1,4 @@
-/* 
+/*
 Base colors
 #dc9827 - yellow
 #353d7a - blue
@@ -122,7 +122,8 @@ Sidebar/Site Header Styles
 	display: block;
 }
 
-.sidebar {
+.sidebar,
+.secondary {
 	background-color: #efa82a;
 }
 
@@ -205,10 +206,13 @@ h1.site-title a,
 }
 
 @media screen and (min-width: 38.75em) {
+	.site-header {
+		padding: 5%;
+	}
 	.secondary {
 		box-shadow: none;
-		margin: 3.6923% 0 0;
-		padding: 0;
+		margin: 3.6923% 7.6923% 0;
+		padding: 3.6923% 7.6923% 0;
 	}
 }
 
