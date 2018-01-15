@@ -126,9 +126,7 @@ Sidebar/Site Header Styles
 	background-color: #efa82a;
 }
 
-.site-title,
-h1.site-title,
-p.site-title {
+.site-title {
 	text-align: center;
 	text-transform: uppercase;
 }
