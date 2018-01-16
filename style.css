@@ -110,7 +110,7 @@ button:focus,
 input[type="button"]:focus,
 input[type="reset"]:focus,
 input[type="submit"]:focus {
-	background-color: rgba(62, 70, 146, 0.7);
+	background-color: rgba(62, 70, 146, 0.85) !important;
 	outline: 0;
 }
 
@@ -211,6 +211,15 @@ h1.site-title a,
 
 .secondary input {
 	background-color: #f7ead2;
+}
+
+.secondary input[type='submit'] {
+	background-color: #3e4692;
+}
+
+.secondary input[type='submit']:hover
+.secondary input[type='submit']:focus {
+	background-color: rgba(62,70,146,0.9);
 }
 
 .dropdown-toggle:after {
