@@ -260,7 +260,8 @@ h1.site-title a,
 	}
 
 	.custom-logo-link:after {
-		max-height: none;
+		max-height: 204px;
+		max-width: 204px;
 	}
 	.site-info {
 		padding: 2% 10% 0;
