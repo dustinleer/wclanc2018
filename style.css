@@ -119,7 +119,7 @@ Sidebar/Site Header Styles
 ----------------------------------------*/
 .custom-logo {
 	margin: 0 auto;
-	display: block;
+	display: none;
 }
 
 .sidebar,
@@ -205,6 +205,15 @@ h1.site-title a,
 	background-color: transparent;;
 }
 
+.custom-logo-link:after {
+	content: '';
+	background: url(https://cldup.com/gzRiYRaLOe.svg) no-repeat;
+	height: 204px;
+	width: 204px;
+	margin: 0 auto;
+	display: block;
+}
+
 @media screen and (min-width: 38.75em) {
 	.site-header {
 		padding: 5%;
@@ -222,7 +231,8 @@ h1.site-title a,
 	}
 
 	.custom-logo-link:after {
-		max-height: 105px;
+		max-height: 114px;
+		max-width: 114px;
 	}
 }
 
@@ -232,7 +242,8 @@ h1.site-title a,
 	}
 
 	.custom-logo-link:after {
-		max-height: 104px;
+		max-height: 134px;
+		max-width: 134px;
 	}
 }
 
