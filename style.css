@@ -127,6 +127,10 @@ Sidebar/Site Header Styles
 	background-color: #efa82a;
 }
 
+.site-branding {
+	padding-right: 0;
+}
+
 .site-title {
 	text-align: center;
 	text-transform: uppercase;
@@ -241,8 +245,8 @@ h1.site-title a,
 .custom-logo-link:after {
 	content: '';
 	background: url(https://cldup.com/gzRiYRaLOe.svg) no-repeat;
-	height: 204px;
-	width: 204px;
+	height: 124px;
+	width: 124px;
 	margin: 0 auto;
 	display: block;
 }
@@ -264,8 +268,8 @@ h1.site-title a,
 	}
 
 	.custom-logo-link:after {
-		max-height: 114px;
-		max-width: 114px;
+		max-height: 164px;
+		max-width: 164px;
 	}
 }
 
@@ -289,7 +293,7 @@ h1.site-title a,
 	}
 
 	.main-navigation {
-		margin: 0 20% 5%;
+		margin: 0 8% 5%;
 	}
 
 	.custom-logo-link:after {
@@ -298,6 +302,9 @@ h1.site-title a,
 	}
 	.site-info {
 		padding: 2% 10% 0;
+	}
+	.widget {
+		padding: 0 8%;
 	}
 }
 
