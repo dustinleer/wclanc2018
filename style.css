@@ -131,6 +131,10 @@ Sidebar/Site Header Styles
 	padding-right: 0;
 }
 
+.site-branding a {
+	display: block;
+}
+
 .site-title {
 	text-align: center;
 	text-transform: uppercase;
