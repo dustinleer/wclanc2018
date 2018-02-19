@@ -416,4 +416,27 @@ h1.site-title a,
 	border-bottom: 0;
 }
 
+.sponsor-level {
+	margin-bottom: 30px;
+}
 
+.sponsor-level:last-child {
+	margin-bottom: 0;
+}
+
+.wcb_widget_sponsors h4.sponsor-level-title {
+	color: #fff;
+	background: #3e4592;
+	padding: 10px;
+	text-align: center;
+	margin: 10px 0;
+}
+
+.wcb_widget_sponsors .sponsor-logo {
+	display: block !important;
+}
+
+.wcb_widget_sponsors .sponsor-logo img {
+	display: block;
+	margin: 0 auto;
+}
