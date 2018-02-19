@@ -417,7 +417,35 @@ h1.site-title a,
 }
 
 .sponsor-level {
-	margin-bottom: 30px;
+	background: #fff;
+	margin-bottom: 50px;
+	min-height: 95px;
+	position: relative;
+}
+
+.sponsor-level:before {
+	border-top: 0px solid transparent;
+	border-bottom: 20px solid transparent;
+	border-left: 100px solid white;
+	bottom: -20px;
+	content: '';
+	display: block;
+	height: 0;
+	position: absolute;
+	width: 0;
+}
+
+.sponsor-level:after {
+	border-top: 0 solid transparent;
+	border-bottom: 20px solid transparent;
+	border-right: 100px solid white;
+	bottom: -20px;
+	content: '';
+	display: block;
+	position: absolute;
+	height: 0;
+	right: 0;
+	width: 0;
 }
 
 .sponsor-level:last-child {
